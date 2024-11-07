@@ -61,6 +61,7 @@
 
 .section {
     display: flex;
+    flex-direction: row;
     width: 100%;
     height: 100%;
 }
@@ -138,6 +139,9 @@ footer {
 
 
 @media only screen and (max-width: 480px) {
+    .section{
+        flex-direction: column;
+    }
     .up2
     {
         width: 100%;
