@@ -113,3 +113,43 @@ footer
     padding-top: 30px;
     text-align: center;
 }
+
+
+@media only screen and (max-width: 480px) {
+    .head
+    {
+        width: 90%;
+        height: 10%;
+        font-size: 16;
+        font-style: italic;
+        color: rgb(106, 226, 152);
+    }
+    
+    .section{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+
+    .article
+    {
+        width: 100%;
+        height: 33%;
+    
+    }
+    .accesos{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        text-align: left;
+    }
+    .beneficio{
+        padding-left: 1px;
+        font-size: 20;
+        text-align: left ;
+    }
+    .contra{
+        padding-left: 1px;
+        font-size: 20;
+    }
+}
