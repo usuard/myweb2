@@ -170,3 +170,143 @@ footer
     
     text-align: center;
 }
+
+
+@media only screen and (max-width: 480px) {
+    .head
+    {
+        width: 90%;
+        height: 10%;
+        font-size: 16;
+        font-style: italic;
+        color: rgb(106, 226, 152);
+    }
+    
+    .section{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+
+    .article
+    {
+        width: 100%;
+        height: 33%;
+    
+    }
+    .accesos{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        text-align: left;
+    }
+    .beneficio{
+        padding-left: 1px;
+        font-size: 20;
+        text-align: left ;
+    }
+    .contra{
+        padding-left: 1px;
+        font-size: 20;
+    }
+}
+
+.section_b {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+}
+
+.up_b {
+    padding-top: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: rgb(241, 235, 235);
+    height: 50%;
+    width: 100%;
+    font-size: 20;
+    font-style: italic;
+    background-image: linear-gradient(white, rgb(245, 189, 194), white);
+}
+
+.down_b {
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: blueviolet;
+    height: 50%;
+    padding-top: 100px;
+    background-color: rgb(241, 235, 235);
+    width: 100%;
+    font-size: 20;
+    font-style: italic;
+    background-image: -webkit-linear-gradient(white, rgb(158, 157, 109), white);
+}
+
+.up2 {
+    /* padding-top: 30px;
+    padding-left: 50px;
+    padding-right: 50px; */
+    background-color: rgb(241, 235, 235);
+    height: 70%;
+    width: 100%;
+    font-size: 20;
+    font-style: italic;
+    background-image: linear-gradient(white, rgb(245, 189, 194), white);
+}
+
+
+.box_c{
+    padding: 40px;
+}
+
+@media only screen and (max-width: 480px) {
+    .section{
+        flex-direction: column;
+    }
+    .up2
+    {
+        width: 100%;
+        height: 33%;
+        background-color: brown;
+    }
+    .down_center
+    {
+        width: 100%;
+        height: 33%;
+    }
+    .down_right
+    {
+        width: 100%;
+        height: 33%;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .box_c{
+        padding: 20px;
+    }
+    
+    .section_c{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+
+    .up2
+    {
+        width: 100%;
+        height: 33%;
+        background-color: brown;
+    }
+    .down_center
+    {
+        width: 100%;
+        height: 33%;
+    }
+    .down_right
+    {
+        width: 100%;
+        height: 33%;
+    }
+}
